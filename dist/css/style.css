@@ -1,0 +1,37 @@
+body {
+    font-size: 15pt;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: rgb(150, 161, 211);
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+section {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.301);
+    align-items: center;
+
+}
+
+div {
+    text-align: center;
+    padding: 8px;
+}
+
+input, button, select {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.301);
+    border-radius: 10px;
+    outline: none;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font: italic;
+}

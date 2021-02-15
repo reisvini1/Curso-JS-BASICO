@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="dist/js/idade.js"></script>
+    <link rel="stylesheet" href="dist/css/style.css">
+    <title>Aula</title>
+</head>
+<body>
+    
+    <header>
+        <div class="titulo" id="titulo">Verificador de Idade</div>
+    </header>
+    <section>
+        <div class="ano_nascimento" id="ano_nascimento">
+            <input type="number" name="ano_nascimento" id="ano_nascimento" maxlength="4">
+        </div>
+
+        <div class="genero" id="genero">
+            <select name="sexo" id="sexo">
+                <option value=""></option>
+                <option value="1">Masculino</option>
+                <option value="2">Feminino</option>
+            </select>
+        </div>
+
+        <div class="confirma" id="confirma">
+            <button type="submit" onclick="confirma()">Confirma</button>
+        </div>
+        
+        <div class="text_idade" id="text_idade"></div>
+        <div id="res" class="res"></div>
+    </section>
+    
+    <footer>
+        <p>Verificador de idade</p>
+        <a href="index.html">Voltar</a>
+    </footer>
+
+</body>
+
+</html>
